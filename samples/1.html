@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+    <head>
+        <title>WDev</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
+    </head>
+
+    <body>
+        <header>
+            <h1>Nasıl WEB sitesi yapacağınızı öğrenin</h1>
+            <nav>
+                <a href="#giris">1: Giriş</a>
+                <br>
+                <abbr title="HyperText Markup Language" lang="en"><a href="#html">2: HTML</a></abbr>
+                <br>
+                <abbr title="Cascading Style Sheets" lang="en"><a href="#css">3: CSS</a></abbr>
+                <br>
+                <abbr title="JavaScript" lang="en"><a href="#js">4: JS</a></abbr>
+            </nav>
+        </header>
+        <main>
+            <section id="giris">
+                <h2>Giriş</h2>
+                <p>WEB sitesi geliştirmek için bilmeniz gereken 3 tane dil vardır. Bunlar: <abbr
+                        title="HyperText Markup Language" lang="en">HTML</abbr>, <abbr title="Cascading Style Sheets"
+                        lang="en">CSS</abbr> ve <abbr title="JavaScript" lang="en">JS</abbr>'dir</p>
+            </section>
+            <hr>
+            <section id="html">
+                <h2>HTML</h2>
+                <a href="https://example.com/html" target="_blank">
+                    <img src="../images/HTML.jpeg" alt="Boş HTML etiketini çağrıştıran bir resim" width="200px">
+                </a>
+                <p>HTML sayfanın yapısını belirleyen bir işaretleme dilidir</p>
+                <p>Programlama dili değildir, sadece sitenin yapısı yazmak için kullanılır</p>
+                <p>zorunludur. İstersen CSS ve JS'i geçebilirsin ama HTML'i geçme şansın yoktur</p>
+                <p>HTML’de içerikleri etiketler ile oluşturursun. Her etiketin bir açılış (&lt;) bir de kapanış (&gt;) kısmı
+                    vardır</p>
+                <h3>Temel HTML etiketleri</h3>
+                <ul>
+                    <li>&lt;h1&gt; ... &lt;h6&gt; : Başlıklar</li>
+                    <li>&lt;p&gt; : Paragraflar</li>
+                    <li>&lt;a&gt; : Linkler</li>
+                    <li>&lt;img&gt; : Resimler</li>
+                    <li>&lt;ul&gt;, &lt;ol&lt;, &lt;li&gt; : Listeler</li>
+                </ul>
+                <h3>Örnek HTML kodu</h3>
+                <pre>
+                        <code>
+    &lt;h1&gt;Merhaba Dünya!&lt;/h1&gt;
+    &lt;p&gt;Bu bir paragraf.&lt;/p&gt;
+    &lt;a href="https://www.example.com"&gt;Örnek Link&lt;/a&gt;
+                        </code>
+                    </pre>
+            </section>
+            <section id="css">
+                <h2>CSS</h2>
+                <a href="https://example.com/css" target="_blank">
+                    <img src="../images/css.png" alt="ekranında CSS kodu olan bir LapTop bilgisayar" width="600px">
+                </a>
+                <p>CSS, sayfanın görünümünü ve stilini belirleyen bir dildir. Renk, yazı tipi, boyut, boşluk ve diğer görsel
+                    özellikleri ayarlamak için kullanılır.</p>
+                <p>Örnek olarak bir başlığı kırmızı yapmak için CSS kullanabilirsin:</p>
+                <pre>
+                        <code>
+    h1 {
+        color: red;
+    }
+                        </code>
+                    </pre>
+                <p>CSS’in sayfaya uygulanması 3 şekilde olabilir: inline, internal veya external. Bunlar HTML ile birlikte
+                    çalışır.
+                </p>
+
+                <h3>Temel CSS Özellikleri</h3>
+                <ul>
+                    <li>color : Metin rengi</li>
+                    <li>background-color : Arka plan rengi</li>
+                    <li>font-size : Yazı boyutu</li>
+                    <li>margin : Dış boşluk</li>
+                    <li>padding : İç boşluk</li>
+                </ul>
+            </section>
+
+            <section id="js">
+                <h2>JavaScript</h2>
+                <a href="https://example.com/js" target="_blank">
+                    <img src="../images/js.jpg" alt="ekranında JS kodu olan bir LapTop bilgisayar" width="600px">
+                </a>
+                <p>JavaScript, sayfaya davranış ve etkileşim kazandırmak için kullanılan programlama dilidir. HTML ve CSS
+                    ile
+                    birlikte çalışır.</p>
+                <p>Örnek: Bir butona tıklandığında bir uyarı mesajı göstermek:</p>
+                <pre>
+                        <code>
+    function showAlert() {
+        alert("Merhaba Dünya!");
+    }
+                        </code>
+                    </pre>
+                <p>HTML ile birlikte kullanımı:</p>
+                <pre>
+                        <code>
+    &lt;button onclick="showAlert()"&gt;Tıkla&lt;/button&gt;
+                        </code>
+                    </pre>
+                <p>JavaScript sayesinde sayfada dinamik içerik oluşturabilir, kullanıcı etkileşimlerini yönetebilirsin.</p>
+            </section>
+        </main>
+        <footer>
+            <nav>
+                <a href="#giris">1: Giriş</a>
+                <br>
+                <abbr title="HyperText Markup Language" lang="en"><a href="#html">2: HTML</a></abbr>
+                <br>
+                <abbr title="Cascading Style Sheets" lang="en"><a href="#css">3: CSS</a></abbr>
+                <br>
+                <abbr title="JavaScript" lang="en"><a href="#js">4: JS</a></abbr>
+            </nav>
+            <p>&copy; 2026 özel WEB site. Tüm hakları saklıdır.</p>
+        </footer>
+    </body>
+
+</html>
